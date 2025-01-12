@@ -1,4 +1,4 @@
-package com.CardPickr;
+package com.BE;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

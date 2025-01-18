@@ -20,6 +20,7 @@ repositories {
 dependencies {
 	// Spring Boot Starter Web
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter'
 
 	// Test
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
@@ -35,6 +36,9 @@ dependencies {
 	// Spring Security
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.security:spring-security-test'
+
+	// External Login
+	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 
 	// MySql
 	runtimeOnly 'com.mysql:mysql-connector-j'

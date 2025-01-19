@@ -42,6 +42,9 @@ dependencies {
 
 	// MySql
 	runtimeOnly 'com.mysql:mysql-connector-j'
+
+	// CSV
+	implementation 'com.opencsv:opencsv:5.5.2'
 }
 
 tasks.named('test') {

@@ -170,6 +170,12 @@ gradle-app.setting
 # Avoid ignore Gradle wrappper properties
 !gradle-wrapper.properties
 
+# Ignore application-local.properties
+src/**/application-local.properties
+
+# Ignore application-prod.properties
+src/**/application-prod.properties
+
 # Cache of project
 .gradletasknamecache
 

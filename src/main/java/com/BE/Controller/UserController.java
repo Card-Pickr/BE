@@ -1,6 +1,7 @@
 package com.BE.Controller;
 
 import com.BE.Common.LoginMethod;
+import com.BE.Dto.LoginRequest;
 import com.BE.Entity.UserEntity;
 import com.BE.Service.UserService;
 import org.springframework.http.ResponseEntity;
@@ -17,6 +18,7 @@ public class UserController {
 
     @PostMapping("/register")
     public ResponseEntity<String> register(@RequestBody UserEntity userEntity) {
+        // 이메일 중복 확인
         if (userService.findByEmail(userEntity.getEmail()).isPresent()) {
             return ResponseEntity.badRequest().body("Email is already registered");
         }
@@ -31,29 +33,6 @@ public class UserController {
             return ResponseEntity.ok("Login successful");
         }
         return ResponseEntity.status(401).body("Invalid email or password");
-    }
-
-    // DTO 클래스
-    public static class LoginRequest {
-        private String email;
-        private String password;
-
-        // Getters and Setters
-        public String getEmail() {
-            return email;
-        }
-
-        public void setEmail(String email) {
-            this.email = email;
-        }
-
-        public String getPassword() {
-            return password;
-        }
-
-        public void setPassword(String password) {
-            this.password = password;
-        }
     }
 
 //    @PostMapping("/login")

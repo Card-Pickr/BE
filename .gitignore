@@ -176,6 +176,9 @@ src/**/application-local.properties
 # Ignore application-prod.properties
 src/**/application-prod.properties
 
+# Ignore application-secret.properties
+src/**/application-secret.properties
+
 # Cache of project
 .gradletasknamecache
 

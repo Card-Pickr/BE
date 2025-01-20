@@ -45,6 +45,9 @@ dependencies {
 
 	// CSV
 	implementation 'com.opencsv:opencsv:5.5.2'
+
+	// Gpt
+	implementation 'io.github.flashvayne:chatgpt-spring-boot-starter:1.0.4'
 }
 
 tasks.named('test') {

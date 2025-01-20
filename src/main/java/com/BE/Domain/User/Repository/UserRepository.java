@@ -1,7 +1,6 @@
-package com.BE.Repository;
+package com.BE.Domain.User.Repository;
 
-import com.BE.Common.LoginMethod;
-import com.BE.Entity.UserEntity;
+import com.BE.Domain.User.Entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.BE.Config;
+package com.BE.Domain.User.Config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

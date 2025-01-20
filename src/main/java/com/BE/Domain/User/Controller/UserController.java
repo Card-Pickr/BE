@@ -1,9 +1,9 @@
-package com.BE.Controller;
+package com.BE.Domain.User.Controller;
 
-import com.BE.Common.LoginMethod;
-import com.BE.Dto.LoginRequest;
-import com.BE.Entity.UserEntity;
-import com.BE.Service.UserService;
+import com.BE.Common.Enum.LoginMethod;
+import com.BE.Domain.User.Dto.LoginRequest;
+import com.BE.Domain.User.Entity.UserEntity;
+import com.BE.Domain.User.Service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

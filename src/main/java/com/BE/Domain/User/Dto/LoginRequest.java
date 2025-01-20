@@ -1,4 +1,4 @@
-package com.BE.Dto;
+package com.BE.Domain.User.Dto;
 
 public class LoginRequest {
     private String email;

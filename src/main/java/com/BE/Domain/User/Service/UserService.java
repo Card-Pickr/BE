@@ -1,7 +1,7 @@
-package com.BE.Service;
+package com.BE.Domain.User.Service;
 
-import com.BE.Entity.UserEntity;
-import com.BE.Repository.UserRepository;
+import com.BE.Domain.User.Entity.UserEntity;
+import com.BE.Domain.User.Repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

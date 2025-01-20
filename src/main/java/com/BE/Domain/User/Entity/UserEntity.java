@@ -1,7 +1,7 @@
-package com.BE.Entity;
+package com.BE.Domain.User.Entity;
 
-import com.BE.Common.Gender;
-import com.BE.Common.LoginMethod;
+import com.BE.Common.Enum.Gender;
+import com.BE.Common.Enum.LoginMethod;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
